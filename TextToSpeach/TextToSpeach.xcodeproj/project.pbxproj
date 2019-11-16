@@ -14,6 +14,7 @@
 		395C43DA237FB51C00AC11B0 /* TextToSpeach.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 395C43D8237FB51C00AC11B0 /* TextToSpeach.xcdatamodeld */; };
 		395C43DC237FB51D00AC11B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 395C43DB237FB51D00AC11B0 /* Assets.xcassets */; };
 		395C43DF237FB51D00AC11B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395C43DD237FB51D00AC11B0 /* LaunchScreen.storyboard */; };
+		395C43E7237FB78C00AC11B0 /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C43E6237FB78C00AC11B0 /* Speaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		395C43DB237FB51D00AC11B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		395C43DE237FB51D00AC11B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		395C43E0237FB51D00AC11B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		395C43E6237FB78C00AC11B0 /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				395C43CF237FB51C00AC11B0 /* AppDelegate.swift */,
 				395C43D1237FB51C00AC11B0 /* SceneDelegate.swift */,
 				395C43D3237FB51C00AC11B0 /* ViewController.swift */,
+				395C43E6237FB78C00AC11B0 /* Speaker.swift */,
 				395C43D5237FB51C00AC11B0 /* Main.storyboard */,
 				395C43DB237FB51D00AC11B0 /* Assets.xcassets */,
 				395C43DD237FB51D00AC11B0 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				395C43E7237FB78C00AC11B0 /* Speaker.swift in Sources */,
 				395C43D4237FB51C00AC11B0 /* ViewController.swift in Sources */,
 				395C43DA237FB51C00AC11B0 /* TextToSpeach.xcdatamodeld in Sources */,
 				395C43D0237FB51C00AC11B0 /* AppDelegate.swift in Sources */,
